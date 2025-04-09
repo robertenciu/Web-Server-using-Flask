@@ -1,0 +1,30 @@
+Această aplicație este un server Flask care oferă un API REST pentru analiza unui set de date legat de nutriție, activitate fizică și obezitate în SUA.
+
+Ce face aplicația:
+
+- Încarcă un fișier CSV cu date statistice.
+- Permite trimiterea de cereri POST către diverse rute pentru a calcula:
+  - media valorilor per stat
+  - media globală
+  - cele mai bune / cele mai slabe 5 state
+  - diferența față de media globală
+  - medii per categorie etc.
+- Orice cerere POST este procesată asincron, într-un fir de execuție separat.
+- Fiecare cerere primește un job_id, iar rezultatul poate fi obținut ulterior cu GET /api/get_results/<job_id>.
+- Se pot interoga toate joburile create sau numărul lor.
+
+Cum este implementată:
+
+- Flask este folosit pentru definirea rutelor și gestionarea cererilor.
+- ThreadPool gestionează cererile în fundal, folosind un număr fix de threaduri.
+- Fiecare job este salvat în results/<job_id>.json, iar statusul său este urmărit.
+- DataIngestor încarcă fișierul CSV și permite accesul la datele filtrate după întrebare/stat.
+- Logarea este făcută folosind logging cu RotatingFileHandler, cu loguri UTC, pentru a păstra istoricul comportamentului aplicației.
+- Fiecare rută scrie în log atunci când este apelată și când returnează răspunsul.
+- Pentru testare unitară este folosit unittest, iar fișierul CSV este înlocuit temporar cu unul de test (tests.csv) pentru a garanta consistența.
+
+Aplicația este modulară, separând clar componentele:
+- data_ingestor.py – încărcarea și filtrarea datelor
+- task_runner.py – executarea joburilor asincron
+- routes.py – logica pentru fiecare endpoint
+- webserver.py – inițializarea aplicației și componentelor

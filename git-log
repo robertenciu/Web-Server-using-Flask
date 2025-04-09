@@ -1,0 +1,648 @@
+commit 594682c2aa0d6674d4d335f955e843bbdcb07f28
+Author: Andrei-Cătălin OUATU (101483) <andrei.ouatu@upb.ro>
+Date:   Wed Mar 26 09:37:43 2025 +0000
+
+    Replacing nehalem queue with haswell as download partition
+
+commit 69fccf7c3fbc55db66195a02ed63f3c1ccb1fe3c
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Mar 26 02:25:43 2025 +0200
+
+    [HW1] - update pylintrc path
+
+commit fdd5ecc469023d80e15686911ab37a531a309d06
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Mon Mar 24 19:39:16 2025 +0200
+
+    [HW1] - update readme
+
+commit 494ac5a2fe286d8250af084c96cb14a58d775508
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Mon Mar 24 17:45:34 2025 +0200
+
+    [HW1] - update tests
+
+commit 5f09b2e942b26a0431bcc4817ab2b0f1a0d39e1a
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Mon Mar 24 15:53:08 2025 +0200
+
+    [HW1] - update readme
+
+commit e16d820316f8fe67448ac85c27255ba14ec1c309
+Author: vlad.spoiala <vlad.spoiala@fep8.grid.pub.ro>
+Date:   Fri May 10 09:54:52 2024 +0300
+
+    Update main.c.
+
+commit bcc57705a57e4b569c156f208a89c477465795b1
+Author: vlad.spoiala <vlad.spoiala@fep8.grid.pub.ro>
+Date:   Thu May 9 23:54:08 2024 +0300
+
+    Update tema3.
+
+commit e3cb3072e84a384fe5eda0ae93869bd24018796f
+Merge: 61b2f88 fb829f4
+Author: Costin CARABAŞ <costin.carabas@upb.ro>
+Date:   Tue Apr 30 06:33:29 2024 +0000
+
+    Merge branch 'fix/compile-issues' into 'master'
+    
+    Fix compiling issues
+    
+    See merge request asc/asc-public!13
+
+commit fb829f40e22036b6da9c89e81f4b39449f90228c
+Author: Costin Carabas <costin.carabas@gmail.com>
+Date:   Tue Apr 30 09:33:00 2024 +0300
+
+    Fix compiling issues
+
+commit 61b2f88b631454c45021d350cd6684c2dfeed925
+Merge: f1d6a16 897266e
+Author: Costin CARABAŞ <costin.carabas@upb.ro>
+Date:   Mon Apr 29 07:02:01 2024 +0000
+
+    Merge branch 'tema2-checker' into 'master'
+    
+    tema2: add checker
+    
+    See merge request asc/asc-public!11
+
+commit 897266e7f3668a230d120a46db91b33ac4a23549
+Author: Costin Carabas <costin.carabas@gmail.com>
+Date:   Fri Apr 26 20:11:31 2024 +0300
+
+    tema2: add checker
+
+commit f1d6a16eedfcc0274bcbf90703d0417f97191abf
+Merge: 501c78c 2b08c33
+Author: Tudor-Alexandru CALAFETEANU (101545) <tudor.calafeteanu@stud.acs.upb.ro>
+Date:   Sat Apr 20 18:14:27 2024 +0000
+
+    Merge branch 'tema2' into 'master'
+    
+    Initial commit
+    
+    See merge request asc/asc-public!10
+
+commit 2b08c331a12dbf875481aa99deba5e8269877e60
+Author: tudor.calafeteanu <tudor.calafeteanu@fep8.grid.pub.ro>
+Date:   Sat Apr 20 20:26:13 2024 +0300
+
+    Initial commit
+
+commit 501c78ca2e801b6a055f584836bdcb383ddc4f46
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 15 18:08:03 2024 +0000
+
+    cuda: practice: hammering the red lightbulb
+
+commit a0d043e855d05935127553d056186667b3328e94
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 15 09:12:29 2024 +0000
+
+    cuda: practice: README fix aberant phrasing
+
+commit 151aae87658f4b89168a263269c41817bc23f3d0
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 14 23:13:51 2024 +0300
+
+    cuda: READMEs fix aberant phrasing
+
+commit 276b376bdd56973c4b486a8ea0ddc0c998d8ead5
+Merge: 1c9696c bf4d2e1
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 14 19:59:02 2024 +0000
+
+    Merge branch 'lab7_support' into 'master'
+    
+    Lab7 support
+    
+    See merge request asc/asc-public!8
+
+commit bf4d2e11db7d724c351bce9b9d967fa00fbf5a82
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 14 22:36:05 2024 +0300
+
+    cuda: practice: blur: Makefile fix
+
+commit d1bdc8ca512d69569b5da247c416f55186173341
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 14 22:08:16 2024 +0300
+
+    cuda: practice: README
+
+commit 8f74e03f31cd15453ea7803e68d6c7bf65e8df13
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 14 21:40:19 2024 +0300
+
+    cuda: practice: added gaussian blur
+
+commit dc47c0af9709c16f8a9e4493d5f629aed6aaf6a3
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sat Apr 13 21:53:26 2024 +0300
+
+    cuda: practice: first easy exercises
+
+commit 1c9696c79bbdd46c150933f08dc3ad6cdb4ebd61
+Merge: 82a4e81 19befa1
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Fri Apr 12 16:15:09 2024 +0000
+
+    Merge branch 'fix_comment_typo_cuda_labs_advanced_trigo' into 'master'
+    
+    Fixed TODO typo
+    
+    See merge request asc/asc-public!7
+
+commit 19befa1a335c5d86ae2b777ef0856881debdbb4d
+Author: danidosa <daniel.dosaru@keysight.com>
+Date:   Thu Apr 11 16:48:02 2024 +0300
+
+    Fixed TODO typo
+
+commit 82a4e812555952ba009571cfcf24a88775530e2d
+Author: Giorgiana VLĂSCEANU <giorgiana.vlasceanu@upb.ro>
+Date:   Tue Apr 9 04:53:12 2024 +0000
+
+    Fixed typo
+
+commit b21faaa5a4374755934f73adfb6de26b37fdd86e
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 8 10:27:07 2024 +0300
+
+    cuda: READMEs: updated download explanations
+
+commit 34c8a4716a6df6bd47008f651002bd5bfeceeb6b
+Merge: e3a37f7 c423c11
+Author: Tudor-Alexandru CALAFETEANU (101545) <tudor.calafeteanu@stud.acs.upb.ro>
+Date:   Sun Apr 7 21:43:25 2024 +0000
+
+    Merge branch 'lab6_support' into 'master'
+    
+    Lab6 support
+    
+    See merge request asc/asc-public!6
+
+commit c423c119ff552e46f940cea6f60849e626cf6ea2
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 22:35:10 2024 +0300
+
+    cuda: Makefile: Create folder for SIF files
+
+commit 0e1281733304afe19228c946bdf69c422422e5c7
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 21:45:12 2024 +0300
+
+    cuda: major changes in using apptainer
+
+commit 744e07f6d1221ad7878341356a3bb1fc4c8c49e2
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 19:52:48 2024 +0300
+
+    cuda: more precise READMEs
+
+commit 7d152385a63613a4b32797f668ecf7e055a27741
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 19:03:44 2024 +0300
+
+    cuda: advanced: exercices: trigo: something to show
+
+commit be83449e4033a169faa17a4e815a11f54f65cd30
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 18:46:18 2024 +0300
+
+    cuda: advanced: examples: quicksort: patched
+
+commit 61197f1ffc98c076ffe3453c34fff3363ffbd4a1
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 18:27:33 2024 +0300
+
+    cuda: advanced: exercises: peculiar-sums: add rdc
+
+commit b647d875631f1b356e88cc2eba06c0248a335d17
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 17:57:06 2024 +0300
+
+    cuda: advanced: exercises: fixups
+
+commit d25441d954b2d111933e79fe5adbbb9c217416e0
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Apr 7 17:34:50 2024 +0300
+
+    cuda: kickstart lab6
+
+commit e3a37f7e90e0aebc48b8ffbab3a807f1b1da415b
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Sat Apr 6 17:41:32 2024 +0300
+
+    HW1: Add pylintrc
+
+commit a2f4149c9b74292d471a29e4d5dcd0985272cd8c
+Merge: 7f75bda e649e82
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Wed Apr 3 22:25:09 2024 +0000
+
+    Merge branch 'cuda_mega_fix' into 'master'
+    
+    Cuda mega fix
+    
+    See merge request asc/asc-public!5
+
+commit e649e825860c40122a3f4162c11b3a042a8d6068
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Apr 4 01:14:57 2024 +0300
+
+    cuda: diagram fix
+
+commit d6d70372b6c4531b01bbf0c150a9321984f6c1ac
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Apr 4 01:05:28 2024 +0300
+
+    cuda: fixes
+
+commit 518d90d5d6794029742ed04964477ded12c56725
+Merge: 3ed1e50 7f75bda
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Wed Apr 3 21:31:18 2024 +0000
+
+    Merge branch 'master' into 'cuda_mega_fix'
+    
+    # Conflicts:
+    #   labs/cuda/Makefile
+    #   labs/cuda/arch/README.md
+    #   labs/cuda/arch/tutorials/debug/Makefile
+    #   labs/cuda/intro/README.md
+
+commit 3ed1e50c4dc04c00096de6af276eae8a23062102
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Apr 4 00:09:14 2024 +0300
+
+    cuda: major rewrite
+
+commit 46d17384652656387acb97099cd84be16d4a31fe
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 15:22:29 2024 +0300
+
+    cuda: relax build constraints
+
+commit d1e80506905e54f3e5142df689cb29426bb3975d
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 00:38:30 2024 +0300
+
+    cuda: arch: change profiler instructions to dump results to cli by default
+
+commit 1260702b1097d48d742e5455387ac7c16992b6e2
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 00:16:08 2024 +0300
+
+    cuda: arch: fix cuda profiler  issues
+
+commit 73398bd6eb0feaf3fb0fb7a80b8ec79e10455522
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 1 01:07:58 2024 +0300
+
+    cuda: intro: fixes
+
+commit 09bf107d327318abedf2d8b4cc3be62ed43f12d5
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 1 01:06:14 2024 +0300
+
+    cuda: intro: diagram
+
+commit 3817f5d9e50f7bacf621a305f3e93ca0657868b1
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:55:43 2024 +0300
+
+    cuda: run-time hazards fix
+
+commit a5214b5355d086e1ed03186c94d86fbfeeff557d
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:51:07 2024 +0300
+
+    cuda: arch: debug: fixes
+
+commit 46ef444bcff21b9fef6f36b91feb5ed7acb927ab
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:25:31 2024 +0300
+
+    cuda: arch: tutorials: debug: fixes
+
+commit 7f75bda87d0998e5eec9117c271123d326d070cf
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 15:22:29 2024 +0300
+
+    cuda: relax build constraints
+
+commit 951401c87a22129651f1730d7d00dd926c853e8a
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 00:38:30 2024 +0300
+
+    cuda: arch: change profiler instructions to dump results to cli by default
+
+commit ca91073c7f17f0b78872c750af00e9b9dc4faf83
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Apr 3 00:16:08 2024 +0300
+
+    cuda: arch: fix cuda profiler  issues
+
+commit 9efeaa9b4844de558b67b017eeeaef544859e79a
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 1 01:07:58 2024 +0300
+
+    cuda: intro: fixes
+
+commit 2372efc5324415a92fee2408442d739c3557cf8e
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Mon Apr 1 01:06:14 2024 +0300
+
+    cuda: intro: diagram
+
+commit f913f64940cfb23d97f323f2f6316049738079f3
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:55:43 2024 +0300
+
+    cuda: run-time hazards fix
+
+commit 3f4a5d468c6c09ef6625fc60d1ef31baae065957
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:51:07 2024 +0300
+
+    cuda: arch: debug: fixes
+
+commit 2089e289dffe5a3de31afe1a987d2f5b9a703c91
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 21:25:31 2024 +0300
+
+    cuda: arch: tutorials: debug: fixes
+
+commit b70280bdd4ac84498a1e9058be676d2cae90e505
+Merge: 5358b07 1864922
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 16:15:07 2024 +0000
+
+    Merge branch 'lab5_support' into 'master'
+    
+    Lab5 support
+    
+    See merge request asc/asc-public!4
+
+commit 18649229982f470b32490daf65bfe0a7b1f21585
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 18:54:49 2024 +0300
+
+    cuda: arch: fixed Makefile slips
+
+commit 58cd6735f5fc9079dbb78a9446f6090246fc094e
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 00:47:49 2024 +0200
+
+    cuda: READMEs: fixes
+
+commit c6f70ae198e4a394ae370d64ec23af5b04d2063a
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 00:47:04 2024 +0200
+
+    cuda: arch: added timing
+
+commit 631f6692be8662f09793f178dd25818f915519dc
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sun Mar 31 00:14:01 2024 +0200
+
+    cuda: arch: debug: first functional prototype
+
+commit 5e878f717691a9288d02dcbb5c4e624a29f5cb05
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Sat Mar 30 10:57:16 2024 +0200
+
+    cuda: intro: refined explanations
+
+commit c712564322bb6396d622fc87bd60ddbe7b793690
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Fri Mar 29 20:54:53 2024 +0200
+
+    cuda: arch: trying something new
+
+commit 5f0caa827f20a4f94576b29ef6747ddabc3b689d
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 16:02:00 2024 +0200
+
+    cuda: arch: initial support
+
+commit 5358b071d4689b9b98ca78b3d176b2f80bd74976
+Author: Andrei <andrei.ouatu@upb.ro>
+Date:   Fri Mar 29 16:50:49 2024 +0200
+
+    Fix state_mean_by_category json output
+
+commit 136e2432ff45248bf3ee317690c2ccaa043c5b7d
+Author: Andrei <andrei.ouatu@upb.ro>
+Date:   Fri Mar 29 16:19:05 2024 +0200
+
+    Update the tests outputs and inputs
+
+commit 33e524881c6c35795336edeb6c2c2d57fcfc6b92
+Author: Andrei <andrei.ouatu@upb.ro>
+Date:   Fri Mar 29 11:43:39 2024 +0200
+
+    Regenerate tests after handling missing values in data
+
+commit c0d1115e6e925ae2a8e9d2ed58b507c566980c6d
+Author: Andrei <andrei.ouatu@upb.ro>
+Date:   Fri Mar 29 11:16:21 2024 +0200
+
+    Update the .csv files to handle missing values
+
+commit ef27a0572532e27ebc0523d3e9330b38df1669df
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 16:06:01 2024 +0200
+
+    cuda: intro: Makefile finesse
+
+commit 92fed89fafd1018fd9cdaa716839ed3a48decbc7
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 15:26:50 2024 +0200
+
+    cuda: intro: typo
+
+commit 9bbfa20a443c5b10965a5049a3e0e5d6ffd111a9
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 15:01:06 2024 +0200
+
+    cuda labs: tweaked time
+
+commit 1901d017fd729c809ecee971b93d4385e6f993f0
+Merge: 44b30e0 9420cd5
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 12:29:39 2024 +0000
+
+    Merge branch 'lab4_support' into 'master'
+    
+    cuda: improved lab setup
+    
+    See merge request asc/asc-public!3
+
+commit 9420cd51cf574a283f200d240a2f603086ac8adc
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 14:28:30 2024 +0200
+
+    cuda: improved lab setup
+
+commit 44b30e077a7cc14c068ba79d66e6a9ec88555066
+Merge: f26b130 4536f68
+Author: Matei BARBU <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 12:07:07 2024 +0000
+
+    Merge branch 'lab4_support' into 'master'
+    
+    Lab4 support
+    
+    See merge request asc/asc-public!2
+
+commit 4536f68a612e5c95deae23633c91ac75d2edf5cb
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 14:06:29 2024 +0200
+
+    cuda labs: improved tehniques to compile and run
+
+commit 34ef575efc9d914479e0105dd635ff96f224c13a
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 11:45:23 2024 +0200
+
+    cuda labs: first lab major rewrite
+
+commit 4b4d7784df8a7b9b69d15ab7e41c1b57d066ec80
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Thu Mar 28 00:19:08 2024 +0200
+
+    lab-04: improved README
+
+commit 48391d5348b49a64bf2843982c55dac1d2103fe0
+Author: Matei Barbu <matei.barbu1905@stud.acs.upb.ro>
+Date:   Wed Mar 27 23:41:54 2024 +0200
+
+    lab-04: initial support
+
+commit f26b1300f4d3b05052ff7b344ef655eab02f1ee2
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Mar 27 17:15:58 2024 +0200
+
+    Update checker to allow an epsilon error for float results
+
+commit 0a387eabadf176574a55bd76e17a6609d086e9f5
+Author: Giorgiana VLĂSCEANU <giorgiana.vlasceanu@upb.ro>
+Date:   Mon Mar 25 16:03:56 2024 +0000
+
+    Update file README.md
+
+commit 84e9fd78da622860704eaddddcac7ab820a33612
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Mon Mar 25 16:29:58 2024 +0200
+
+    Add 2023-2024 hw1
+
+commit 2140dd16e4c544c42a524457bae2891756a2f9a5
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Mon Mar 25 15:32:41 2024 +0200
+
+    Remove 2022-2023 hw
+
+commit 10a09f8dcb51adc48f6a39b7a4114c57b5d01818
+Merge: c6a50e3 823a187
+Author: Giorgiana VLĂSCEANU <giorgiana.vlasceanu@upb.ro>
+Date:   Sat Mar 23 16:45:01 2024 +0000
+
+    Merge branch 'master' into 'master'
+    
+    Adaugat paranteze la print
+    
+    See merge request asc/asc-public!1
+
+commit c6a50e3bc9fc0585d6cebd54472e715f49ab6b19
+Author: Grigore Lupescu <grigore.lupescu@gmail.com>
+Date:   Thu May 18 10:57:39 2023 +0300
+
+    Fix include string header
+
+commit 823a1876493a3f93ac67db2e8678e05e0990e2f9
+Author: Farhad Ali Irinel GUL <farhad_ali.gul@stud.acs.upb.ro>
+Date:   Wed May 17 05:24:05 2023 +0000
+
+    Adaugat paranteze la print
+
+commit 5e65253e4134bafa78a04c65429a72c4ffa98cda
+Author: Grigore Lupescu <grigore.lupescu@gmail.com>
+Date:   Mon May 15 22:04:40 2023 +0300
+
+    Add 3-parallel-hashtable assignment
+
+commit f941957bdc7821775fd35e6200de8f681739c25d
+Merge: fc02748 51be372
+Author: Constantin Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Mar 24 15:59:32 2021 +0000
+
+    Merged in tema1_2021_checker (pull request #1)
+    
+    Tema1 2021: add timeouts per test
+    
+    Approved-by: Giorgiana Vlăsceanu
+
+commit 51be37205563b495b75dd18e304a15e17d31f2f7
+Author: Eduard Staniloiu <edi33416@gmail.com>
+Date:   Wed Mar 24 17:55:00 2021 +0200
+
+    Tema1 2021: add timeouts per test
+
+commit fc02748e1a0835d3daa5fd42b8fa0a4aa07a8e06
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 16:27:46 2021 +0200
+
+    Update README example
+
+commit afb300aac46a1025a47b6f0f5d66638adea2f70d
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 16:04:21 2021 +0200
+
+    fix typos
+
+commit e2ce751488b587c16e80385cbb467be733bffcac
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 16:01:15 2021 +0200
+
+    Add README example
+
+commit 997055923d44b16ae0386df32df221478a11ec66
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 15:24:50 2021 +0200
+
+    Update README
+
+commit 1683bee4423df28cdb07c5827a5bf65f821df170
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 15:12:00 2021 +0200
+
+    Update README for 1-marketplace
+
+commit 54a11b3d35b3ee643945a45cd4f5208eec0432fa
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 15:08:00 2021 +0200
+
+    Add 1-marketplace assignment
+
+commit c2d5891869074abda6ec7ea0d3e55ff41f3966b5
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 14:55:23 2021 +0200
+
+    Update README
+
+commit 063fb3f48c528420ae83428eeef66926812d6a5f
+Author: giorgianav <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 14:52:21 2021 +0200
+
+    Add README file
+
+commit 385b14907bf8b5bbb0efa0e6b92699247771fc05
+Author: Giorgiana Vlăsceanu <giorgiana.vlasceanu@gmail.com>
+Date:   Thu Mar 18 12:39:54 2021 +0000
+
+    Initial commit
